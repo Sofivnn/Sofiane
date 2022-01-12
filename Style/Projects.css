@@ -1,0 +1,227 @@
+#Projects {
+  position: relative;
+  background: radial-gradient(ellipse at bottom, #1b2735 0, #090a0f 100%);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Projects .Projects_page {
+  position: relative;
+}
+
+#Projects .Projects_page .text_title_project {
+  padding-bottom: 50px;
+}
+
+#Projects .Projects_page .text_title_project .title_project {
+  position: relative;
+  color: white;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffff;
+}
+
+#Projects .Projects_page .card-content {
+  display: -ms-grid;
+  display: grid;
+  gap: 3rem;
+  -ms-grid-columns: (0fr)[4];
+      grid-template-columns: repeat(4, 0fr);
+}
+
+#Projects .Projects_page .card-content .card {
+  width: 18rem !important;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 400px;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Projects .Projects_page .card-content .card .card-bottom {
+  position: absolute;
+  right: 7px;
+  bottom: 7px;
+}
+
+#Projects .Projects_page .card-content .card .card-bottom a {
+  background-color: #192431;
+  border: non;
+}
+
+@media only screen and (max-width: 1400px) {
+  #Projects {
+    position: relative;
+    background: radial-gradient(ellipse at bottom, #1b2735 0, #090a0f 100%);
+    height: 100%;
+  }
+  #Projects .Projects_page {
+    position: relative;
+    padding-top: 120px;
+  }
+  #Projects .Projects_page .text_title_project {
+    padding-bottom: 50px;
+  }
+  #Projects .Projects_page .text_title_project .title_project {
+    color: white;
+  }
+  #Projects .Projects_page .card-content {
+    display: -ms-grid;
+    display: grid;
+    gap: 3rem;
+    -ms-grid-columns: (0fr)[3];
+        grid-template-columns: repeat(3, 0fr);
+  }
+  #Projects .Projects_page .card-content .card {
+    width: 18rem !important;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 400px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  #Projects .Projects_page .card-content .card .card-bottom {
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+  }
+  #Projects .Projects_page .card-content .card .card-bottom a {
+    background-color: #192431;
+    border: non;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #Projects {
+    position: relative;
+    background: radial-gradient(ellipse at bottom, #1b2735 0, #090a0f 100%);
+    height: 100%;
+  }
+  #Projects .Projects_page {
+    position: relative;
+    padding-top: 120px;
+  }
+  #Projects .Projects_page .text_title_project {
+    padding-bottom: 50px;
+  }
+  #Projects .Projects_page .text_title_project .title_project {
+    color: white;
+  }
+  #Projects .Projects_page .card-content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -ms-grid;
+    display: grid;
+    gap: 3rem;
+    -ms-grid-columns: (0fr)[2];
+        grid-template-columns: repeat(2, 0fr);
+  }
+  #Projects .Projects_page .card-content .card {
+    width: 18rem !important;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 400px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  #Projects .Projects_page .card-content .card .card-bottom {
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+  }
+  #Projects .Projects_page .card-content .card .card-bottom a {
+    background-color: #192431;
+    border: non;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #Projects {
+    position: relative;
+    background: radial-gradient(ellipse at bottom, #1b2735 0, #090a0f 100%);
+    height: 100%;
+  }
+  #Projects .Projects_page {
+    position: relative;
+    padding-top: 120px;
+  }
+  #Projects .Projects_page .text_title_project {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  #Projects .Projects_page .text_title_project .title_project {
+    color: white;
+  }
+  #Projects .Projects_page .card-content {
+    display: -ms-grid;
+    display: grid;
+    gap: 3rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-grid-columns: (0fr)[1];
+        grid-template-columns: repeat(1, 0fr);
+  }
+  #Projects .Projects_page .card-content .card {
+    width: 18rem !important;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 400px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  #Projects .Projects_page .card-content .card .card-bottom {
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+  }
+  #Projects .Projects_page .card-content .card .card-bottom a {
+    background-color: #192431;
+    border: non;
+  }
+}
+/*# sourceMappingURL=Projects.css.map */
